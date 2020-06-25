@@ -1,0 +1,243 @@
+body { margin: 0; padding: 0; border: 0; }
+
+#gap-1 { height: 25px; }
+#gap-2 { height: 60px; }
+#gap-3 { height: 30px; }
+#gap-4 { height: 50px; }
+#gap-5 { height: 18px; }
+
+#wrap-1 {
+	text-align: center;
+}
+#div-1 {
+	width: 1000px;	
+	text-align: left;
+	display: inline-block;
+}
+#img-logo-1 { height: 28%; width: 28%; }
+#name-1 {
+	font-family: "impact";
+	font-weight: 1;
+	letter-spacing: 1px;
+	font-size: 250%;
+	color: #143975; 
+	opacity: 92%;
+	display: inline;
+	position: relative;
+	bottom: 30px;
+	left: 32px;
+}
+
+#img-back {		
+	position: relative;	
+	margin: 0; padding: 0; border: 0;
+	background-color: #E0E0E0;
+	height: 15px;
+	box-shadow: 0px 30px 24px -24px #A5A5A5;
+}
+#end-back {
+	margin: 0; padding: 0; border: 0;
+	background-color: #575757;	
+	height: 200px;
+}
+
+#wrap-2 {
+	text-align: center;	
+	height: 50px;
+}
+#div-2 {
+	width: 1000px;	
+	display: inline-block;
+	position: relative;
+	bottom: 15px;	
+}
+#blue-back {
+	margin: 0; padding: 0; border: 0;
+	height: 15px;
+	background-color: #143975;
+	opacity: 92%;
+}
+#div-3 {
+	width: 1000px;
+	text-align: left;
+	display: inline-block;
+	position: relative;
+	top: -14px;	
+}
+#div-3 * {
+	text-decoration: none;
+	font-family: "Candara";
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: black;
+	opacity: 92%;
+}
+#academics { background: #143975; color: white; position: relative; left: -4px; }
+#faculty { position: relative; left: -8px; }
+#students { position: relative; left: -12px; }
+#alumni { position: relative; left: -16px; }
+#admissions { position: relative; left: -20px; }
+#campus { position: relative; left: -24px; }
+#events { position: relative; left: -28px; }
+
+#wrap-3 {
+	text-align: center;	
+}
+#div-4 {
+	width: 1000px;	
+	text-align: left;
+	display: inline-block;
+}
+
+#dep-head {
+	font-family: "impact";
+	font-weight: 1;
+	letter-spacing: 1px;
+	font-size: 250%;
+	color: #5B5A5A;
+}
+
+#img2-img1 {
+	height: 15%;
+	width: 15%;
+	position: relative;
+	bottom: 35px;	
+}
+#img2-img2 {
+	height: 15%;
+	width: 15%;
+	position: relative;
+	bottom: 35px;
+}
+#dep * {
+	text-decoration: none;
+	color: black;
+}
+#dep-1 {	
+	width: 600px;	
+	/*box-shadow: 5px 5px 15px -3px #A5A5A5; */	
+	font-size: 150%;	
+	font-family: "Candara";
+	padding: 50px;		
+}
+#dep-2 {	
+	width: 600px;	
+	/*box-shadow: 5px 5px 15px -3px #A5A5A5; 	*/
+	font-size: 150%;	
+	font-family: "Candara";
+	padding: 50px;		
+}
+
+#wrap-5 {
+	text-align: center;	
+}
+#div-6 {
+	width: 1000px;	
+	text-align: left;
+	display: inline-block;	
+}
+
+#ac-head {
+	font-family: "impact";
+	font-weight: 1;
+	letter-spacing: 1px;
+	font-size: 250%;
+	color: #5B5A5A;
+}
+
+#img2-img3 {
+	height: 15%;
+	width: 15%;
+	position: relative;
+	bottom: 35px;	
+}
+#img2-img4 {
+	height: 15%;
+	width: 15%;
+	position: relative;
+	bottom: 35px;
+}
+#img2-img5 {
+	height: 15%;
+	width: 15%;
+	position: relative;
+	bottom: 35px;
+}
+#img2-img6 {
+	height: 15%;
+	width: 15%;
+	position: relative;
+	bottom: 35px;
+}
+#ac * {
+	text-decoration: none;
+	color: black;
+}
+#ac-1 {	
+	width: 600px;			
+	font-size: 150%;	
+	font-family: "Candara";
+	padding: 50px;			
+}
+#ac-2 {	
+	width: 600px;		
+	font-size: 150%;	
+	font-family: "Candara";
+	padding: 50px;		
+}
+#ac-3 {	
+	width: 600px;		
+	font-size: 150%;	
+	font-family: "Candara";
+	padding: 50px;		
+}
+#ac-4 {	
+	width: 600px;		
+	font-size: 150%;	
+	font-family: "Candara";
+	padding: 50px;		
+}
+
+#wrap-4 {
+	text-align: center;	
+}
+#div-5 {
+	width: 1000px;	
+	text-align: left;
+	display: inline-block;
+	position: relative;
+	top: 60px;
+}
+#div-5 * {
+	display: inline;
+	color: #F5F5F5;
+	text-decoration: none;
+	font-family: "Candara";	
+	letter-spacing: 0.6px;
+}
+#f-insta {
+	position: relative;
+	top: 6px;
+	height: 1.9%;
+	width: 1.9%;
+}
+#f-fb {
+	position: relative;
+	top: 6px;
+	height: 1.87%;
+	width: 1.87%;
+}
+#f-yt {
+	position: relative;
+	top: 6px;
+	height: 2.4%;
+	width: 2.4%;
+}
+#f-tw {
+	position: relative;
+	top: 6px;
+	height: 2%;
+	width: 2%;
+}
