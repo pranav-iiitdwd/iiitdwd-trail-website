@@ -1,5 +1,8 @@
-function hover1 () {
-	function home_mouseover() { document.getElementById("home").style.backgroundColor= "#5C5C5C"; }
+/*function hover1 () {	
+	function home_mouseover() { 
+		document.getElementById("home").style.backgroundColor= "#5C5C5C";
+		
+	}
 	function home_mouseout() { document.getElementById("home").style.backgroundColor= "#143975"; }
 	document.getElementById("home").addEventListener("mouseover",home_mouseover);
 	document.getElementById("home").addEventListener("mouseout",home_mouseout);
@@ -81,7 +84,7 @@ function hover1 () {
 	document.getElementById("events").addEventListener("mouseover",events_mouseover);
 	document.getElementById("events").addEventListener("mouseout",events_mouseout);
 }
-hover1();
+hover1();*/
 
 function total_img_slide() {	
 	var i,j=0,prej=0,n=3,o,o2,a,b,c,d; 
@@ -170,12 +173,12 @@ function total_img_slide() {
 }
 setTimeout(total_img_slide,200);
 
-function hover2() {
+/*function hover2() {
 	document.getElementById("r-a").style.cursor = "pointer";
 	document.getElementById("l-a").style.cursor = "pointer";
 	function a_mouseover() {
-		document.getElementById("r-a").style.opacity="0.75";
-		document.getElementById("l-a").style.opacity="0.75";		
+		document.getElementById("r-a").style.opacity="0.9";
+		document.getElementById("l-a").style.opacity="0.9";		
 	}
 	function a_mouseout() {
 		document.getElementById("r-a").style.opacity="0";
@@ -202,9 +205,9 @@ function hover2() {
 	document.getElementById("l-a").addEventListener("mouseover",la_mouseover);
 	document.getElementById("l-a").addEventListener("mouseout",la_mouseout);
 }
-hover2();
+hover2();*/
 
-function hover3() {
+/*function hover3() {
 	function fi_mouseover() {
 		document.getElementById("f-insta").style.filter = "brightness(65%)";		
 	}
@@ -268,4 +271,4 @@ function hover3() {
 	document.getElementById("follow").addEventListener("mouseover",follow_mouseover);
 	document.getElementById("follow").addEventListener("mouseout",follow_mouseout);
 }
-hover3();
+hover3();*/

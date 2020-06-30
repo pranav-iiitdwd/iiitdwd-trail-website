@@ -1,4 +1,4 @@
-function hover1 () {
+/*function hover1 () {
 	function home_mouseover() { 
 		document.getElementById("home").style.backgroundColor= "#5C5C5C";
 		document.getElementById("home").style.color= "#FFFFFF";
@@ -87,9 +87,9 @@ function hover1 () {
 	document.getElementById("events").addEventListener("mouseover",events_mouseover);
 	document.getElementById("events").addEventListener("mouseout",events_mouseout);
 }
-hover1();
+hover1();*/
 
-function hover3() {
+/*function hover3() {
 	function fi_mouseover() {
 		document.getElementById("f-insta").style.filter = "brightness(65%)";		
 	}
@@ -153,7 +153,7 @@ function hover3() {
 	document.getElementById("follow").addEventListener("mouseover",follow_mouseover);
 	document.getElementById("follow").addEventListener("mouseout",follow_mouseout);
 }
-hover3();
+hover3();*/
 
 function hover4() {
 	var o=0.0,o2="",a;

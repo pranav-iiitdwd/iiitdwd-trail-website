@@ -142,7 +142,7 @@ body { margin: 0; padding: 0; border: 0; }
 	text-align: left;
 	display: inline-block;
 	position: relative;
-	top: 60px;
+	top: 25px;
 }
 #div-5 * {
 	display: inline;
@@ -174,4 +174,20 @@ body { margin: 0; padding: 0; border: 0; }
 	top: 6px;
 	height: 2%;
 	width: 2%;
+}
+#div-cr {
+	text-align: center;	
+}
+#cr {
+	left: -10px;
+	width: 1000px;	
+	text-align: left;
+	display: inline-block;
+	position: relative;
+	top: 48px;
+	color: #A0A0A0;
+}
+#foot {	
+	background-color: #575757;
+	height: 150px;	
 }
