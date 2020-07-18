@@ -79,6 +79,8 @@ body { margin: 0; padding: 0; border: 0; }
 #admissions { position: relative; left: -20px; }
 #campus { position: relative; left: -24px; }
 #events { background: #143975; color: white; position: relative; left: -28px; }
+#jobs { position: relative; left: -32px; }
+#tenders { position: relative; left: -36px; }
 
 #wrap-4 {
 	text-align: center;	

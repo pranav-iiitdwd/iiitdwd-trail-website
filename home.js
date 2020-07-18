@@ -124,11 +124,11 @@ function total_img_slide() {
 		setTimeout(clear2,999);		
 	}
 	img_slide();
-	d=setInterval(img_slide,5000);
+	d=setInterval(img_slide,8000);
 
 	function r_slide() {		
 		clearInterval(d);
-		d=setInterval(img_slide,5000);
+		d=setInterval(img_slide,8000);
 		img_slide();
 	}
 	function r_event() {
@@ -162,7 +162,7 @@ function total_img_slide() {
 
 	function l_slide() {		
 		clearInterval(d);
-		d=setInterval(img_slide,5000);
+		d=setInterval(img_slide,8000);
 		img_slide_dup();
 	}
 	function l_event() {

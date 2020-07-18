@@ -2,7 +2,7 @@ body { margin: 0; padding: 0; border: 0; }
 
 #gap-1 { height: 25px; }
 #gap-2 { height: 60px; }
-#gap-3 { height: 400px; }
+#gap-3 { height: 100px; }
 
 #wrap-1 {
 	text-align: center;
@@ -79,6 +79,8 @@ body { margin: 0; padding: 0; border: 0; }
 #admissions { position: relative; left: -20px; }
 #campus { position: relative; left: -24px; }
 #events { position: relative; left: -28px; }
+#jobs { position: relative; left: -32px; }
+#tenders { position: relative; left: -36px; }
 
 #wrap-4 {
 	text-align: center;	
@@ -147,5 +149,79 @@ body { margin: 0; padding: 0; border: 0; }
 	text-align: left;
 	display: inline-block;
 	position: relative;
+	font-family: "Candara";	
+}
+#f-name {	
+	border: none;	
+	width: 900px;
+	background-color: #E7E7E7;
 	font-family: "Candara";
+	line-height: 30px;
+	padding: 10px;
+	font-size: 102%;
+	margin: 8px;
+	margin-left: 20px;
+	box-shadow: 5px 5px 5px -5px #000000;
+}
+#f-email {	
+	border: none;	
+	width: 900px;
+	background-color: #E7E7E7;
+	font-family: "Candara";
+	line-height: 30px;
+	padding: 10px;
+	font-size: 102%;
+	margin: 8px;
+	margin-left: 20px;
+	box-shadow: 5px 5px 5px -5px #000000;
+}
+#f-message {	
+	border: none;
+	width: 900px;
+	height: 120px;
+	background-color: #E7E7E7;
+	font-family: "Candara";
+	line-height: 30px;
+	padding: 10px;
+	font-size: 105%;
+	margin: 8px;
+	margin-left: 20px;
+	box-shadow: 5px 5px 5px -5px #000000;
+}
+.feed {
+	margin-left: 40px;
+	width: 900px;
+}
+#feed-down {
+	margin-left: 20px;
+	width: 900px;
+	padding: 10px;
+}
+#submit {
+	float: right;
+	background-color: #143975;
+	padding: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: white;
+	cursor: pointer;
+}
+#max-note {
+	float: left;
+	color: #565656;
+}
+.star {
+	color: #575757;
+	font-size: 500%;
+	cursor: pointer;
+}
+.star-avg {
+	color: #F3BE3E;
+	font-size: 150%;
+}
+.star-avg-head {
+	font-size: 110%;
+}
+#survey {
+	font-size: 110%;
 }

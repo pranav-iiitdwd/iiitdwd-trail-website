@@ -2,9 +2,7 @@ body { margin: 0; padding: 0; border: 0; }
 
 #gap-1 { height: 25px; }
 #gap-2 { height: 60px; }
-#gap-3 { height: 38px; }
-#gap-4 { height: 50px; }
-#gap-5 { height: 30px; }
+#gap-3 { height: 400px; }
 
 #wrap-1 {
 	text-align: center;
@@ -75,66 +73,14 @@ body { margin: 0; padding: 0; border: 0; }
 	opacity: 92%;
 }
 #academics { position: relative; left: -4px; }
-#faculty { background: #143975; color: white; position: relative; left: -8px; }
+#faculty { position: relative; left: -8px; }
 #students { position: relative; left: -12px; }
 #alumni { position: relative; left: -16px; }
 #admissions { position: relative; left: -20px; }
 #campus { position: relative; left: -24px; }
 #events { position: relative; left: -28px; }
 #jobs { position: relative; left: -32px; }
-#tenders { position: relative; left: -36px; }
-
-#wrap-3 {
-	text-align: center;	
-}
-#div-4 {
-	width: 1000px;	
-	text-align: left;
-	display: inline-block;
-}
-#wrap-5 {
-	text-align: center;	
-}
-#div-6 {
-	width: 1000px;	
-	text-align: left;
-	display: inline-block;	
-}
-
-#c-f1 {	
-	width: 400px;	
-	position: absolute;
-	margin-left: 530px;	
-	margin-top: 30px;
-	font-size: 120%;
-	font-family: "Candara";	
-	color: #353535;
-	opacity: 0%;
-}
-#c-f2 {
-	width: 400px;	
-	position: relative;
-	top: 50px;
-	left: 20px;	
-	font-size: 120%;
-	font-family: "Candara";	
-	color: #353535;
-	opacity: 0%;
-}
-#img-f1 {
-	height: 30%;
-	width: 30%;
-	opacity: 0%;
-}
-#img-f2 {
-	height: 30%;
-	width: 30%;
-	opacity: 0%;
-}
-.ln {
-	height: 4px;
-	background-color: #353535;
-}
+#tenders { background: #143975; color: white; position: relative; left: -36px; }
 
 #wrap-4 {
 	text-align: center;	
@@ -192,4 +138,16 @@ body { margin: 0; padding: 0; border: 0; }
 #foot {	
 	background-color: #575757;
 	height: 150px;	
+	position: relative;
+	bottom: 20px;
+}
+#wrap-3 {
+	text-align: center;	
+}
+#div-4 {
+	width: 1000px;	
+	text-align: left;
+	display: inline-block;
+	position: relative;
+	font-family: "Candara";
 }

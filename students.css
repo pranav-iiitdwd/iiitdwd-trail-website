@@ -2,8 +2,8 @@ body { margin: 0; padding: 0; border: 0; }
 
 #gap-1 { height: 25px; }
 #gap-2 { height: 60px; }
-#gap-3 { height: 20px; }
-#gap-4 { height: 400px; }
+#gap-3 { height: 35px; }
+#gap-4 { height: 60px; }
 
 #wrap-1 {
 	text-align: center;
@@ -80,6 +80,8 @@ body { margin: 0; padding: 0; border: 0; }
 #admissions { position: relative; left: -20px; }
 #campus { position: relative; left: -24px; }
 #events { position: relative; left: -28px; }
+#jobs { position: relative; left: -32px; }
+#tenders { position: relative; left: -36px; }
 
 #wrap-4 {
 	text-align: center;	
@@ -156,5 +158,34 @@ body { margin: 0; padding: 0; border: 0; }
 }
 .list-1 {
 	line-height: 160%;
-	font-size: 110%;
+	font-size: 120%;
+}
+.img-stu {
+	height: 100px;
+	float: left;
+	margin: 10px;
+}
+.img-div-stu {
+	height: 100px;	
+	padding: 15px;
+	width: 320px;
+	float: left;
+}
+#img-35 {
+	width: 80px;
+	height: 62px;
+	margin: 15px;	
+	float: left;
+}
+#img-36 {
+	width: 100px;
+	height: 62px;
+	margin: 10px;
+	float: left;
+}
+.div-img {	
+	width: 480px;
+	height: 120px;
+	float: left;
+	margin: 10px;
 }

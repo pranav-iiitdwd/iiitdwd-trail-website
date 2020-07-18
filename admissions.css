@@ -2,7 +2,7 @@ body { margin: 0; padding: 0; border: 0; }
 
 #gap-1 { height: 25px; }
 #gap-2 { height: 60px; }
-#gap-3 { height: 400px; }
+#gap-3 { height: 80px; }
 
 #wrap-1 {
 	text-align: center;
@@ -79,6 +79,8 @@ body { margin: 0; padding: 0; border: 0; }
 #admissions { background: #143975; color: white; position: relative; left: -20px; }
 #campus { position: relative; left: -24px; }
 #events { position: relative; left: -28px; }
+#jobs { position: relative; left: -32px; }
+#tenders { position: relative; left: -36px; }
 
 #wrap-4 {
 	text-align: center;	

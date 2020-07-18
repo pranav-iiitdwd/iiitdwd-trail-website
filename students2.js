@@ -1,10 +1,10 @@
 var h1=200,current_page="students";
-var a=["#home","#academics","#faculty","#students","#alumni","#admissions","#campus","#events"];
+var a=["#home","#academics","#faculty","#students","#alumni","#admissions","#campus","#events","#jobs","#tenders"];
 var b=["#feedback","#contact","#follow","#f-insta","#f-fb","#f-yt","#f-tw"];
 
 $(document).ready(function(){	
 	/*hovering over menu*/{
-		for(i=0;i<8;i++) {
+		for(i=0;i<10;i++) {
 			if( a[i]==("#"+current_page) ) {				
 				$(a[i]).hover(function() {
 					$(this).stop(true,false);
@@ -38,10 +38,12 @@ $(document).ready(function(){
 		}
 	}
 	{
-		$(".list-1").hover(function() {
-			$(this).css("color","#8BB9E3");
+		$(".div-img").hover(function() {
+			$(this).css("boxShadow","5px 5px 15px -5px #A5A5A5");				
+			$(this).css({bottom: 2, position:'relative'});
 		},function() {
-			$(this).css("color","#5E5E5E");
+			$(this).css("boxShadow","0px 0px 0px 0px #FFFFFF");
+			$(this).css({bottom: 0, position:'relative'});
 		});
 	}	
 });

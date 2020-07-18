@@ -1,12 +1,12 @@
 var h1=200,current_page="academics";
-var a=["#home","#academics","#faculty","#students","#alumni","#admissions","#campus","#events"];
+var a=["#home","#academics","#faculty","#students","#alumni","#admissions","#campus","#events","#jobs","#tenders"];
 var b=["#feedback","#contact","#follow","#f-insta","#f-fb","#f-yt","#f-tw"];
 var c=["#dep-1","#dep-2"];
 var d=["#ac-1","#ac-2","#ac-3","#ac-4"]
 
 $(document).ready(function(){	
 	/*hovering over menu*/{
-		for(i=0;i<8;i++) {
+		for(i=0;i<10;i++) {
 			if( a[i]==("#"+current_page) ) {				
 				$(a[i]).hover(function() {
 					$(this).stop(true,false);
