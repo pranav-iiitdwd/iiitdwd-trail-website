@@ -63,6 +63,7 @@ $(document).ready(function(){
             document.getElementById("searched-text").innerHTML ="Searched text &nbsp; : &nbsp; " + input;
             document.getElementById("search-result-head").innerHTML ="Search Results :"
 
+            input=input.toLowerCase();
             input.replace(/(^\s*)|(\s*$)/gi,"");
             input.replace(/[ ]{2,}/gi," ");
             input.replace(/\n /,"\n");
@@ -111,6 +112,7 @@ $(document).ready(function(){
     		document.getElementById("searched-text").innerHTML ="Searched text &nbsp; : &nbsp; " + input;
     		document.getElementById("search-result-head").innerHTML ="Search Results :"
 
+            input=input.toLowerCase();
     		input.replace(/(^\s*)|(\s*$)/gi,"");
     		input.replace(/[ ]{2,}/gi," ");
     		input.replace(/\n /,"\n");
