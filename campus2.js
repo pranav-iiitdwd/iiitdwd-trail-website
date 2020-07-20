@@ -1,11 +1,11 @@
-var h1=200,current_page="campus";
-var a=["#home","#academics","#faculty","#students","#alumni","#admissions","#campus","#events","#jobs","#tenders"];
+var h1=200,current_page="campus-life";
+var a=["#home","#academics","#campus-life","#alumni","#admissions","#engage"];
 var b=["#feedback","#contact","#follow","#f-insta","#f-fb","#f-yt","#f-tw"];
 
 
 $(document).ready(function(){	
 	/*hovering over menu*/{
-		for(i=0;i<10;i++) {
+		for(i=0;i<6;i++) {
 			if( a[i]==("#"+current_page) ) {				
 				$(a[i]).hover(function() {
 					$(this).stop(true,false);

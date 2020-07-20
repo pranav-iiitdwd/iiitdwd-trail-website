@@ -1,11 +1,11 @@
 var h1=200,h2=300,current_page="home";
-var a=["#home","#academics","#faculty","#students","#alumni","#admissions","#campus","#events","#jobs","#tenders"];
+var a=["#home","#academics","#campus-life","#alumni","#admissions","#engage"];
 var b=["#feedback","#contact","#follow","#f-insta","#f-fb","#f-yt","#f-tw"];
 var c=["#img2-img1","#img2-img2","#img2-img3"];
 
 $(document).ready(function(){	
 	/*hovering over menu*/{
-		for(i=0;i<10;i++) {
+		for(i=0;i<6;i++) {
 			if( a[i]==("#"+current_page) ) {				
 				$(a[i]).hover(function() {
 					$("#"+this.id+"-drop").stop(true,false);					
@@ -86,4 +86,32 @@ $(document).ready(function(){
 			$("#div-6 *").animate({ opacity: '0' },h2,"swing");
 		});		
 	}
+	/* Search hover */{
+		$("#search-img").hover(function() {
+			$(this).css("opacity","0.4");
+		},function() {
+			$(this).css("opacity","1");
+		});
+	}
+	/* Search tranfer */{
+		$("#search-img").click(function() {
+			var input = document.getElementById("search-bar").value;			
+			localStorage.setItem("passed_input", input+"");
+			localStorage.setItem("f2",1);
+		});
+	}
+	/* Search tranfer */{
+		$("#direct-search-page").click(function() {
+			localStorage.setItem("passed_input","");							
+			localStorage.setItem("f2",0);
+		});
+	}
+	/* links hover */{
+		$(".links-set").hover(function() {
+			$(this).css("opacity","0.6");
+		},function() {
+			$(this).css("opacity","1");
+		});
+	}
 });
+

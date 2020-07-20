@@ -4,6 +4,9 @@ body { margin: 0; padding: 0; border: 0; }
 #gap-2 { height: 60px; }
 #gap-3 { height: 60px; }
 #gap-4 { height: 80px; }
+#gap-5 { height: 30px; }
+#gap-6 { height: 20px; }
+#gap-7 { height: 10px; }
 
 #wrap-1 {
 	text-align: center;
@@ -109,16 +112,12 @@ body { margin: 0; padding: 0; border: 0; }
 	color: black;
 	opacity: 92%;		
 }
-#home { position: relative;	background: #143975; color: white; }
+#home { background: #143975; color: white; }
 #academics { position: relative; left: -4px; }
-#faculty { position: relative; left: -8px; }
-#students { position: relative; left: -12px; }
-#alumni { position: relative; left: -16px; }
-#admissions { position: relative; left: -20px; }
-#campus { position: relative; left: -24px; }
-#events { position: relative; left: -28px; }
-#jobs { position: relative; left: -32px; }
-#tenders { position: relative; left: -36px; }
+#campus-life { position: relative; left: -8px; }
+#alumni { position: relative; left: -12px; }
+#admissions { position: relative; left: -16px; }
+#engage { position: relative; left: -20px; }
 
 #home-drop {	
 	position: absolute;	
@@ -249,5 +248,90 @@ body { margin: 0; padding: 0; border: 0; }
 }
 #foot {	
 	background-color: #575757;
-	height: 150px;	
+	height: 620px;	
+}
+
+#wrap-5 {
+	text-align: center;	
+}
+#div-7 {
+	width: 1000px;	
+	text-align: left;
+	display: inline-block;	
+}
+#div-7 * {
+	font-size: 100%;
+	text-decoration: none;	
+	font-family: "Candara";
+	letter-spacing: 0.6px;
+	color: #F5F5F5;
+	width: 230px;
+}
+
+#div-8 {
+	float: left;
+	margin:10px;	
+}
+#div-9 {
+	float: left;
+	margin:10px;
+}
+#div-10 {
+	float: left;
+	margin:10px;
+}
+#div-11 {
+	float: left;
+	margin:10px;
+}
+.list-down {
+	margin: 0px;	
+	margin-left: 18px;	
+	padding: 0;	
+}
+.list-down * {
+	margin-bottom: 5px;
+}
+.list-down-2 {
+	margin: 0px;
+	margin-left: 18px;
+	padding: 0;
+}
+#wrap-6 {	
+	text-align: center;
+	height: 100px;
+	width: 100%;		
+}
+#div-12 {
+	width: 1000px;	
+	text-align: left;	
+	display: inline-block;	
+	height: 100px;
+}
+#div-13 {
+	margin: 30px;
+	float: right;
+}
+#div-14 {
+	color: #F5F5F5;
+	float: left;
+	margin: 30px;
+	font-family: "Candara";
+	font-size: 120%;
+	letter-spacing: 1px;
+}
+#search-img {
+	height: 20px;
+	position: relative;
+	right: 3px;
+	top: 5px;
+}
+#direct-search-page {
+	float: left;
+	margin-left: 30px;
+	position: relative;
+	bottom: 15px;
+	color: #F5F5F5;
+	font-family: "Candara";
+	letter-spacing: 0.5px;
 }

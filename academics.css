@@ -5,6 +5,7 @@ body { margin: 0; padding: 0; border: 0; }
 #gap-3 { height: 30px; }
 #gap-4 { height: 50px; }
 #gap-5 { height: 18px; }
+#gap-6 { height: 200px; }
 
 #wrap-1 {
 	text-align: center;
@@ -75,14 +76,10 @@ body { margin: 0; padding: 0; border: 0; }
 	opacity: 92%;
 }
 #academics { background: #143975; color: white; position: relative; left: -4px; }
-#faculty { position: relative; left: -8px; }
-#students { position: relative; left: -12px; }
-#alumni { position: relative; left: -16px; }
-#admissions { position: relative; left: -20px; }
-#campus { position: relative; left: -24px; }
-#events { position: relative; left: -28px; }
-#jobs { position: relative; left: -32px; }
-#tenders { position: relative; left: -36px; }
+#campus-life { position: relative; left: -8px; }
+#alumni { position: relative; left: -12px; }
+#admissions { position: relative; left: -16px; }
+#engage { position: relative; left: -20px; }
 
 #wrap-3 {
 	text-align: center;	
@@ -112,26 +109,6 @@ body { margin: 0; padding: 0; border: 0; }
 	width: 15%;
 	position: relative;
 	bottom: 35px;
-}
-#dep * {
-	text-decoration: none;
-	color: black;
-}
-#dep-1 {	
-	position: relative;
-	width: 600px;	
-	/*box-shadow: 5px 5px 15px -3px #A5A5A5; */	
-	font-size: 150%;	
-	font-family: "Candara";
-	padding: 50px;		
-}
-#dep-2 {	
-	position: relative;
-	width: 600px;	
-	/*box-shadow: 5px 5px 15px -3px #A5A5A5; 	*/
-	font-size: 150%;	
-	font-family: "Candara";
-	padding: 50px;		
 }
 
 #wrap-5 {
@@ -263,4 +240,162 @@ body { margin: 0; padding: 0; border: 0; }
 #foot {	
 	background-color: #575757;
 	height: 150px;	
+}
+
+#cs {
+	float: left;
+	width: 440px;
+	margin: 10px;
+	margin-top: 15px;
+	padding :15px;	
+	padding-left: 20px;	
+}
+#cs-img {
+	width: 20%;
+	float: left;
+}
+#cs-text {
+	font-size: 130%;
+	float: left;
+	margin: 20px;
+	margin-left: 30px;	
+	font-family: "Candara";
+	text-decoration: none;
+	color: black;
+	width: 300px;
+}
+#ec {
+	float: right;
+	width: 440px;
+	margin: 10px;
+	margin-top: 15px;
+	padding :15px;
+	padding-left: 20px;			
+}
+#ec-img {
+	width: 20%;
+	float: left;
+}
+#ec-text {
+	font-size: 130%;
+	float: left;
+	margin: 20px;
+	margin-left: 30px;		
+	font-family: "Candara";
+	text-decoration: none;
+	color: black;
+	width: 300px;
+}
+
+#aims {
+	float: left;
+	width: 440px;
+	margin: 10px;
+	margin-top: 15px;
+	padding :15px;	
+	padding-left: 20px;	
+}
+#aims-img {
+	width: 20%;
+	float: left;
+}
+#aims-text {
+	font-size: 130%;
+	float: left;
+	margin: 10px;
+	margin-left: 30px;	
+	font-family: "Candara";
+	text-decoration: none;
+	color: black;
+	width: 300px;
+}
+#fac {
+	float: right;
+	width: 440px;
+	margin: 10px;
+	margin-top: 15px;
+	padding :15px;
+	padding-left: 20px;			
+}
+#fac-img {
+	width: 20%;
+	float: left;
+}
+#fac-text {
+	font-size: 130%;
+	float: left;
+	margin: 20px;
+	margin-left: 30px;		
+	font-family: "Candara";
+	text-decoration: none;
+	color: black;
+	width: 300px;
+}
+
+#cal {
+	float: left;
+	width: 440px;
+	margin: 10px;
+	margin-top: 15px;
+	padding :15px;	
+	padding-left: 20px;	
+}
+#cal-img {
+	width: 20%;
+	float: left;
+}
+#cal-text {
+	font-size: 130%;
+	float: left;
+	margin: 20px;
+	margin-left: 30px;	
+	font-family: "Candara";
+	text-decoration: none;
+	color: black;
+	width: 300px;
+}
+#tt {
+	float: right;
+	width: 440px;
+	margin: 10px;
+	margin-top: 15px;
+	padding :15px;
+	padding-left: 20px;			
+}
+#tt-img {
+	width: 20%;
+	float: left;
+}
+#tt-text {
+	font-size: 130%;
+	float: left;
+	margin: 20px;
+	margin-left: 30px;		
+	font-family: "Candara";
+	text-decoration: none;
+	color: black;
+	width: 300px;
+}
+
+#res {
+	float: left;
+	width: 440px;
+	margin: 10px;
+	margin-top: 15px;
+	padding :15px;	
+	padding-left: 20px;	
+}
+#res-img {
+	width: 20%;
+	float: left;
+}
+#res-text {
+	font-size: 130%;
+	float: left;
+	margin: 20px;
+	margin-left: 30px;	
+	font-family: "Candara";
+	text-decoration: none;
+	color: black;
+	width: 300px;
 }

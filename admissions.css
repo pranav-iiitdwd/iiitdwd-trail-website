@@ -73,14 +73,10 @@ body { margin: 0; padding: 0; border: 0; }
 	opacity: 92%;
 }
 #academics { position: relative; left: -4px; }
-#faculty { position: relative; left: -8px; }
-#students { position: relative; left: -12px; }
-#alumni { position: relative; left: -16px; }
-#admissions { background: #143975; color: white; position: relative; left: -20px; }
-#campus { position: relative; left: -24px; }
-#events { position: relative; left: -28px; }
-#jobs { position: relative; left: -32px; }
-#tenders { position: relative; left: -36px; }
+#campus-life { position: relative; left: -8px; }
+#alumni { position: relative; left: -12px; }
+#admissions { background: #143975; color: white; position: relative; left: -16px; }
+#engage { position: relative; left: -20px; }
 
 #wrap-4 {
 	text-align: center;	
